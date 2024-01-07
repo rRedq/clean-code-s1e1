@@ -18,8 +18,8 @@
 }
 
 @media (max-width: 768px) {
-  .header { text-align: center;
-
+  .header { 
+    text-align: center;
   }
 }
 .main {
@@ -27,7 +27,8 @@
   width: 500px;
   margin: 0 auto 0;
 }
-.task-label, .task-input {
+.task-label, 
+.task-input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -39,10 +40,13 @@
   margin: 0;
   padding: 0px;
 }
-.todo__item, .todo__title {
+.todo__item,
+.todo__title {
   list-style: none;
 }
-.task-input, .todo__checkbox, .common-btn{
+.task-input,
+.todo__checkbox,
+.common-btn{
   outline: none;
 }
 .common-btn {
@@ -58,7 +62,8 @@
   color: #3a3a3a;
 }
 /* Heading */
-.todo__title, .section-add__label {
+.todo__title,
+.section-add__label {
   color: #333;
   font-weight: 700;
   font-size: 15px;
