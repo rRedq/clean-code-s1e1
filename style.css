@@ -30,7 +30,7 @@
 .task-label, .task-input {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .section-add__content {
   display: flex;
@@ -116,7 +116,7 @@
   width: 226px;
 }
 .task-input {
-  width: 226px
+  width: 226px;
 }
 .todo__image {
   height: 2em;
@@ -129,18 +129,18 @@
 
 /* Completed */
 .completed-todo .todo__label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .todo__input {
-  display: none
+  display: none;
 }
 
 .edit-mode .todo__input {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .edit-mode .todo__label {
